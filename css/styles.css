@@ -239,6 +239,7 @@ img {
     display:flex;
     gap: 40px;
     align-items: center;
+    
 }
 .container {
     width: 320px;
