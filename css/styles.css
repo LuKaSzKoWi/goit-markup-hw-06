@@ -189,7 +189,7 @@ html {
     padding: 100px 0;
     display: grid;
     align-items: baseline;
-    width: 320px;
+    /* width: 320px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -227,8 +227,8 @@ img {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
  
-        /* width: 320px;
-        height: 56px; */
+        /* width: ; */
+        height: 56px; 
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -249,10 +249,10 @@ img {
 }
 
 .navigation {
-    display:flex; 
+    display: flex; 
     align-items: center;
     margin: 0;
-    
+    padding: 16px 0;
     
 }
 
@@ -287,7 +287,7 @@ img {
     border-radius: 2px;
     /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.adress-list {
+.address-list {
     list-style-type: none;
     display: flex;
     gap: 20px;
@@ -327,7 +327,7 @@ img {
     
     padding-top: 96px;
     padding-bottom: 96px;
-    width: 320px;
+    /* width: 320px; */
     margin: 0 auto;
 }
 
@@ -370,7 +370,7 @@ img {
 
 .section-three {
     padding: 120px 0;
-    width: 320px;
+    /* width: 320px; */
     margin-left: auto;
     margin-right: auto;
        
@@ -415,7 +415,7 @@ img {
 .section-four {
     padding-top: 96px;
     padding-bottom: 96px;
-    width: 320px;
+    /* width: 320px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -459,7 +459,7 @@ img {
 .page-footer {
     padding: 96px 0;
     background-color: #2e2f42;
-    width: 320px; 
+    /* width: 320px;  */
 }
 
 .page-paragraph-four {
@@ -586,13 +586,13 @@ img {
 /* Footer icons */
 
 .foot-container {
-    width: 320px;
+    /* width: 320px; */
 }
 
 
 .div-footer {
     /* margin-right: 120px; */
-    width: 288px;
+    /* width: 288px; */
     
 }
 .footer-icon {
@@ -740,20 +740,20 @@ img {
 }
 
 .modal {
-    /* display: none; */
+    display: none;
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 408px;
-    min-height: 584px;
+    width: 288px;
+    min-height: 623px;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 16px 16px;
 }
 
 .modal-button {
@@ -950,6 +950,98 @@ img {
     border-radius: 4px;
 
 }
+.hamburger {
+    margin-left: 24px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mobile-nav.is-open {
+    display: block;
+    
+    
+}
+
+.mobile-nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.mobile-nav-one {
+    display: grid;
+    margin-left: 16px;
+    margin-top: 72px;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.mobile-nav-link {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.11em;
+    color: var(--text-color-main);
+    text-decoration: none;
+    /* padding: 24px 0; */
+}
+.mobile-nav-link:hover {
+    color: #404bbf;
+}
+
+.mobile-nav-link:focus {
+    color: #404bbf;
+}
+
+.mobile-nav-address {
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.mobile-address-list {
+    display: grid;
+    gap: 24px;
+    margin-left: 16px;
+    margin-top: 168px;
+    list-style-type: none;
+}
+
+.mobile-address-link {
+    
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-link:hover {
+    color: #404bbf;
+}
+
+.address-link:focus {
+    color: #404bbf;
+}
+
+.mobile-media-one {
+    display: flex;    
+    gap: 40px;
+     list-style-type: none;
+    margin-top: 48px;
+    margin-left: 16px;
+}
+
+
 
 /* Mobile first */
 
@@ -963,11 +1055,6 @@ img {
     }
 }
 
-.hamburger {
-    
-    margin-left: 34px; 
-   
-    
-}
+
 
 
