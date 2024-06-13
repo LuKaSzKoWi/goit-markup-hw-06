@@ -61,11 +61,7 @@ html {
 }
 
 .page-address {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    display: none;
 }
 .address-link {
     font-size: 16px;
@@ -263,9 +259,7 @@ img {
     gap:40px;
 }
 .nav-list-one {
-    list-style-type: none;
-    display: flex;
-    gap: 40px;
+    display: none;
 }
 
 .link-active {
@@ -595,13 +589,14 @@ img {
 .footer-icon {
     display: block;
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
-    gap: 120px;
-    width: 208px;
-    height: 80px;
+    /* gap: 120px; */
+    /* width: 208px; */
+    /* height: 80px;
     top: 3256px;
-    left: 540px;
-    margin: auto;
+    left: 540px; */
+    /* margin: auto; */
     
     
 }
@@ -619,6 +614,8 @@ img {
 }
 .social-media-two {
     display:flex;
+    align-items: center;
+    justify-content: center;
     gap: 16px;
     list-style-type: none;
 }
@@ -653,9 +650,9 @@ img {
 .sub-one {
     
     display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
     
     font-weight: 500;
     font-size: 16px;
@@ -669,11 +666,8 @@ img {
 .form-one {
     display: block;
     gap: 24px;
-    
-    
-    
-    
 }
+
 .label-one {
     display: flex;
     align-items: center;
@@ -1063,20 +1057,28 @@ img {
     .hamburger {
         display: none;
     }
-    .div-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .nav-list-one {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
     }
+
+    .page-address {
+            display: block;
+    }
+
     .address-list {
         display: grid;
         row-gap: 10px;
         margin-left: 105px;
     }
+
+    
     .page-logo {
         margin-right: 120px;
     }
     .address-link {
+        font-style: normal;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.16em;
@@ -1148,28 +1150,43 @@ img {
     .foot-container {
             display: flex;
             flex-wrap: wrap;
-            margin-left: 108px;
+            padding-left: 93px;
+            padding-right: 149px;
+            
     }
+    
     .page-footer {
+    margin: 0 auto;
+    }
+       
+    
+    .footer-icon {
+        margin: 0;
+    }
+    .page-paragraph-four {
+        margin: 0 auto;
+    }
+    
+    .page-logo-bottom {
         
     }
     
-    .footer-icon {
-        margin-right: 164px;
-        margin-left: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .page-paragraph-four {
-        margin: auto;
-    }
-    .form-one {
-        display: flex;
-        margin-left: auto;
-    } 
     .subs-button {
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .form-one {
+        display: flex;
+        gap: 24px;
+            
+    }
+
+    .sm-paragraph {
+        margin-right: 110px;
+    }
+
+    .sub-one {
+        margin-right: 215px;
     }
 }
 
