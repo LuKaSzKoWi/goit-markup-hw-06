@@ -29,6 +29,8 @@ html {
     text-decoration: none;
     display: inline-block;
     margin-right: 76px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     
 }
 
@@ -719,7 +721,7 @@ img {
 /* Modal */
 
 .backdrop {
-    /* display: none; */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -732,7 +734,7 @@ img {
 }
 
 .modal {
-    /* display: none; */
+    display: none;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -1076,6 +1078,8 @@ img {
     
     .page-logo {
         margin-right: 120px;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
     .address-link {
         font-style: normal;
