@@ -51,7 +51,7 @@ html {
     line-height: 1.5em;
     color: var(--text-color-main);
     text-decoration: none;
-    padding: 24px 0;
+    padding: 22px 0;
     display: inline-block;
     
 }
@@ -294,11 +294,15 @@ img {
 
 /* Section one */
 
-
+.section-one {
+    margin-left: auto;
+        margin-right: auto;
+}
 
 .page-title {
     width: 216px;
     margin: 0 auto 24px;
+    
     
 }
 .page-button {
@@ -721,7 +725,7 @@ img {
 /* Modal */
 
 .backdrop {
-    display: none;
+    /* display: none; */
     position: fixed;
     top: 0;
     left: 0;
@@ -734,7 +738,7 @@ img {
 }
 
 .modal {
-    display: none;
+    /* display: none; */
     position:absolute;
     top: 50%;
     left: 50%;
@@ -1067,12 +1071,13 @@ img {
 
     .page-address {
             display: block;
+            
     }
 
     .address-list {
         display: grid;
         row-gap: 10px;
-        margin-left: 105px;
+        margin-left: 90px;
     }
 
     
@@ -1092,7 +1097,7 @@ img {
     .section-one {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url("../images/peopleoffice768x1.jpg");
+                url("../images/peopleoffice768x2.jpg");
         padding-top: auto;
         padding-bottom: auto;
                               
@@ -1199,6 +1204,133 @@ img {
     }
 }
 
+/* Desktop */
 
+@media screen and (min-width: 1158px) {
+    .container {
+        width: 1158px;
+    }
+
+    .mobile-nav.is-open {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    
+
+    .nav-list-one {
+        list-style-type: none;
+        display: flex;
+        gap: 40px;
+    }
+
+    .page-address {
+        margin-left: 202px;
+    }
+
+    .address-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0%;
+    }    
+
+
+    .page-logo {
+        /* margin-right: 120px; */
+        margin-left: auto;
+        margin-right: 120px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .address-link {
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.16em;
+        letter-spacing: 2%;   
+    }
+
+
+
+    .section-one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url("../images/peopleoffice1440x2.jpg");
+        padding-top: auto;
+        padding-bottom: auto;
+
+    }
+
+    .page-title {
+
+        width: 496px;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin-bottom: auto;
+        margin-top: 62px;
+        padding: auto;
+        */
+    }
+
+    .icon-one {
+        display: flex;
+    }
+
+    .list-two {
+        list-style-type: none;
+            display: flex;
+            gap: 24px;
+        
+    }
+
+    .list-two-item {
+            width: 264px;
+    }
+
+    .page-title-two {
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+
+
+    .list-three {
+        list-style-type: none;
+        display: flex;
+        gap: 24px;
+        padding: 0%;
+    }
+
+    .img-size {
+        width: 360px;
+        height: 300px;
+    }
+
+    .foot-container {
+        display: flex;
+        align-items: baseline;
+        padding: 0%;
+    }
+
+    .div-footer {
+    margin-right: 120px;
+    }
+
+    .footer-icon {
+        margin-right: 80px;
+    }
+
+    .page-logo-bottom {
+        display: inline-block;
+    }
+}
 
 
